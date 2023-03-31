@@ -1,5 +1,8 @@
 name: MLOps-dev
 channels:
+  - conda-forge
+  - conda-forge/label/dev
+  - intel
   - defaults
 dependencies:
   - python[version='>=3.6']
