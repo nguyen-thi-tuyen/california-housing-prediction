@@ -8,6 +8,7 @@ dependencies:
   - python[version='>=3.6']
   - ipykernel
   - pandas
+  - numpy
   - scikit-learn
   - pip
 prefix: /opt/anaconda3/envs/MLOps-dev
