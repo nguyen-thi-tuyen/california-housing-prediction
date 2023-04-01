@@ -15,10 +15,13 @@ Contents:
    commands
 
 
-
 Indices and tables
 ==================
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+.. automodule:: src.data.make_dataset
+    :members:
