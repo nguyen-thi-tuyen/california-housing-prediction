@@ -76,3 +76,17 @@ if __name__ == '__main__':
     data_path = os.getenv("DATA_PATH")
     processed_path = os.getenv("PROCESSED_PATH")
     main(data_path, processed_path)
+
+
+def main(input_filepath, output_filepath):
+    """ Runs data processing scripts to turn raw data from (../raw) into
+        cleaned data ready to be analyzed (saved in ../processed).
+
+        Paramters
+        ---------
+        input_filepath: str
+            the full path (including name of the file) of the raw data
+        output_filepath: str
+            the folder path to create and to save train and test datasets
+
+    """
